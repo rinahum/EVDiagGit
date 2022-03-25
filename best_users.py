@@ -11,7 +11,7 @@ def top_users(file_path):
             data = json.loads(jsonData);
             user = {
                 "user": data["user"],
-                "count": 0}
+                "count": 1}
             if(data["user"]["id"] in users):
                 users[data["user"]["id"]]["count"] += 1;
             else:
