@@ -13,7 +13,7 @@ def active_days(file_path):
             if(date not in days):
                 days[date] = {
                     "date": date,
-                    "count": 0
+                    "count": 1
                 }
             else:
                 days[date]["count"] += 1
