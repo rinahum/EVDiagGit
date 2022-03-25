@@ -16,7 +16,7 @@ def top_hashtags(file_path):
                     if(hashtag not in hashtags):
                         hashtags[hashtag] = {
                             "hashtag": hashtag,
-                            "count": 0
+                            "count": 1
                         }
                     else:
                         hashtags[hashtag]["count"] += 1
